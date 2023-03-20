@@ -1,0 +1,169 @@
+*{box-sizing:border-box;}
+body{
+	background-image:url(https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+	}
+#header{
+	background-image:url(header.jpg);
+	color:#290382;
+	text-align:center;
+}
+h1{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+	
+	
+}
+#navigation{
+	
+	padding:10px;
+	float:left;
+	width:20%;
+	height:100px;
+	color:#f2d480;
+	margin-bottom:20px;
+	position:fixed;
+	
+	
+
+}
+.menu li{
+	
+	background-image:url(menubg.jpg);
+	margin:20px;
+	border: 2px solid red;
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+.menu li:hover{background-color: #320032;}
+#navigation a,figcaption a{
+	font-size:25px;
+	color:#f2d480;
+	font-weight:bold;
+	text-decoration: none;}
+#navigation li,a {
+	display: block;
+	position:relative;
+	transition: all 500ms;
+	}
+
+#navigation li a:hover {
+	color: #61ff35;
+	font-size:35px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+}
+
+#navigation li:hover {
+	font-size:88px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+	
+}
+
+
+#movieName {
+  height:40px;
+  width: 50%;
+  background-color: #fad2e8;
+  color: #08212e;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image:none;
+  font-size:30px;
+  position:relative;
+  left:600px;
+  }
+  
+ #submitButt{
+	height:40px;
+	border-radius: 10px;
+	position:relative;
+    left:600px;
+	bottom:5px;
+ }
+ #submitButt:hover {
+	background-color: #45a049;
+	}
+
+ .movieList{
+ position:relative;
+ left:300px;
+ width:80%;
+
+ 
+ 
+ }
+ .movieList figure img{
+ height:200px;
+ width:150px;
+ padding:10px;
+ }
+
+ .movieList figure{
+	float:left;
+	height:250px;
+	width:200px;
+	padding:10px;
+ }
+
+ .bookTypes{
+	color:#01b7cf ;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 46px;
+	font-weight: 100;
+	line-height: 50px;
+	letter-spacing: 1px;
+	padding: 0 0 40px;
+	border-bottom: double #555;
+ }
+ figure img{
+	border-radius: 15%;
+ }
+
+ figcaption{
+	border-radius: 10px;
+	padding: 5px;
+ }
+
+.infopg h2{
+	color: #1cc706;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 50px;
+	background-color: #00576f;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+.infopg p{
+	color: #86a538;
+	background-color: #014e78;
+	padding: 50px;
+	border-radius: 10px;
+	font-size:25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+
+}
+ @media screen and (max-width: 400px) {
+        #navigation{
+            width:120%;
+            float: right;
+            position: relative;
+            top:100%;
+            left: 20px;}
+		.movieList{
+			left: 80px;
+			top: 190px;
+		}
+		#moviename{
+			left: 800px;
+			
+		}
+	}
